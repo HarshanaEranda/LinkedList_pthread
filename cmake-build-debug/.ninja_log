@@ -1,15 +1,17 @@
 # ninja log v5
-29	48	1694331313855014093	Lab_Assignment	94aa3c6d4477357a
+30	51	1694435183084196582	Lab_Assignment	cc01e7eafd38aa6f
 1	26	1694325557921752291	CMakeFiles/Lab_Assignment.dir/insert.c.o	8850c534f9e751b5
-1	20	1694424126630824399	build.ninja	a8eae573bfe4883a
+0	20	1694435468756271249	build.ninja	a8eae573bfe4883a
 1	25	1694282145427955628	CMakeFiles/Lab_Assignment.dir/parallel_program_with_one_mutex_.c.o	42a75ec75e7a2701
 1	22	1694329315858923853	CMakeFiles/Lab_Assignment.dir/populateLinkedList.c.o	e78c0ffb32ae47fd
+0	26	1694434512713037645	CMakeFiles/Lab_Assignment.dir/shuffle.c.o	9925ebee18a9f954
 0	25	1694280009439750988	CMakeFiles/Lab_Assignment.dir/member.c.o	ce1f4a8e07f778eb
 0	54	1694266613143033513	CMakeFiles/Lab_Assignment.dir/main.c.o	1478ad74626885d6
 1	418	1694325028974975676	CMakeFiles/Lab_Assignment.dir/function.c.o	f3998e31e95ffb2c
-0	23	1694329743506135344	CMakeFiles/Lab_Assignment.dir/operations.c.o	f0bcae97fcfc725d
-0	29	1694331313835016003	CMakeFiles/Lab_Assignment.dir/serial_program_for_Linked_list.c.o	16b6023e82f05bc6
+1	26	1694434512713037645	CMakeFiles/Lab_Assignment.dir/operations.c.o	f0bcae97fcfc725d
+0	30	1694435183064195584	CMakeFiles/Lab_Assignment.dir/serial_program_for_Linked_list.c.o	16b6023e82f05bc6
 1	26	1694325557921752291	CMakeFiles/Lab_Assignment.dir/delete.c.o	6fe26b92dc63e06f
-0	18	1694424126630824399	build.ninja	a8eae573bfe4883a
-0	101	1694424126742828792	CMakeFiles/Lab_Assignment.dir/shuffle.c.o	9925ebee18a9f954
-102	132	1694424126770829892	Lab_Assignment	828ad93188429098
+0	20	1694435468756271249	build.ninja	a8eae573bfe4883a
+0	27	1694435468788272400	CMakeFiles/Lab_Assignment.dir/arrayShuffle.c.o	ba687f3b12683ad6
+1	27	1694435468792272545	CMakeFiles/Lab_Assignment.dir/serial_program_for_Linked_list.c.o	16b6023e82f05bc6
+27	46	1694435468808273121	Lab_Assignment	de18dc4e85585ed0

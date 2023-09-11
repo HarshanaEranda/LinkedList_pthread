@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "node.h"
-#include "insert.h"
-#include "member.h"
-#include "delete.h"
 
 long getRandomValue();
 
@@ -24,6 +21,7 @@ int main() {
     printf("Enter m_delete : ");
     scanf("%d", &m_delete);
     struct node *linkedList = NULL;
+
     for (int i = 0; i < 1000; i++) {
         long randomNumber = getRandomValue();
         int operation = i % 3;

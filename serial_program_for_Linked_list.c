@@ -24,11 +24,6 @@ int main() {
     struct node *linkedList = NULL;
     linkedList = initializedLinkedList(linkedList,n);
 
-//    struct node*curr_p = linkedList;
-//    for(int t = 0;t< n;t++){
-//        printf("%ld \n",curr_p->data);
-//        curr_p = curr_p->next;
-//    }
     int num_member = (int)m*m_member;
     int num_insert = (int)m*m_insert;
     int num_delete = (int)m*m_delete;

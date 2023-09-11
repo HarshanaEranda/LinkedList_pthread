@@ -8,4 +8,5 @@ add_executable(Lab_Assignment
         node.h
         operations.c
         operations.h
+        shuffle.c
 )

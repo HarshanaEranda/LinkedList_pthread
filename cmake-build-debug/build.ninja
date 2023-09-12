@@ -49,12 +49,6 @@ cmake_ninja_workdir = /home/harshana/CLionProjects/Lab_Assignment/cmake-build-de
 
 build cmake_object_order_depends_target_Lab_Assignment: phony || CMakeFiles/Lab_Assignment.dir
 
-build CMakeFiles/Lab_Assignment.dir/serial_program_for_Linked_list.c.o: C_COMPILER__Lab_Assignment_unscanned_Debug /home/harshana/CLionProjects/Lab_Assignment/serial_program_for_Linked_list.c || cmake_object_order_depends_target_Lab_Assignment
-  DEP_FILE = CMakeFiles/Lab_Assignment.dir/serial_program_for_Linked_list.c.o.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/Lab_Assignment.dir
-  OBJECT_FILE_DIR = CMakeFiles/Lab_Assignment.dir
-
 build CMakeFiles/Lab_Assignment.dir/operations.c.o: C_COMPILER__Lab_Assignment_unscanned_Debug /home/harshana/CLionProjects/Lab_Assignment/operations.c || cmake_object_order_depends_target_Lab_Assignment
   DEP_FILE = CMakeFiles/Lab_Assignment.dir/operations.c.o.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
@@ -67,6 +61,12 @@ build CMakeFiles/Lab_Assignment.dir/arrayShuffle.c.o: C_COMPILER__Lab_Assignment
   OBJECT_DIR = CMakeFiles/Lab_Assignment.dir
   OBJECT_FILE_DIR = CMakeFiles/Lab_Assignment.dir
 
+build CMakeFiles/Lab_Assignment.dir/parallel_program_for_Linked_list_.c.o: C_COMPILER__Lab_Assignment_unscanned_Debug /home/harshana/CLionProjects/Lab_Assignment/parallel_program_for_Linked_list$ .c || cmake_object_order_depends_target_Lab_Assignment
+  DEP_FILE = CMakeFiles/Lab_Assignment.dir/parallel_program_for_Linked_list_.c.o.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Lab_Assignment.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_Assignment.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Lab_Assignment
@@ -75,7 +75,7 @@ build CMakeFiles/Lab_Assignment.dir/arrayShuffle.c.o: C_COMPILER__Lab_Assignment
 #############################################
 # Link the executable Lab_Assignment
 
-build Lab_Assignment: C_EXECUTABLE_LINKER__Lab_Assignment_Debug CMakeFiles/Lab_Assignment.dir/serial_program_for_Linked_list.c.o CMakeFiles/Lab_Assignment.dir/operations.c.o CMakeFiles/Lab_Assignment.dir/arrayShuffle.c.o
+build Lab_Assignment: C_EXECUTABLE_LINKER__Lab_Assignment_Debug CMakeFiles/Lab_Assignment.dir/operations.c.o CMakeFiles/Lab_Assignment.dir/arrayShuffle.c.o CMakeFiles/Lab_Assignment.dir/parallel_program_for_Linked_list_.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Lab_Assignment.dir
   POST_BUILD = :
